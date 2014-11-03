@@ -70,6 +70,7 @@ Else
     $includemanagementtools = $false
 }
 
+$name = $name.split(",")
 
 
 If ($state -eq "present") {
