@@ -43,7 +43,7 @@ ansible -i hosts -m win_pendingreboot all
     win_pendingreboot:
 '''
 
-RETURNS='''
+RETURN = '''
 pending_reboot:
     description: Whether the node has a pending reboot or not (True/False)
     returned: always
